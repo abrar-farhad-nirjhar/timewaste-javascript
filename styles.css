@@ -5,3 +5,25 @@
     opacity: .5;
 }
 
+
+.final{
+    text-align: center
+}
+
+.my-style{
+    margin-left: 32%;
+    /* margin-right: 50% */
+}
+
+.error{
+    text-align: center;
+    color: red;
+}
+
+.custom-color{
+    background-color: teal
+}
+
+body{
+    background-color: teal
+}

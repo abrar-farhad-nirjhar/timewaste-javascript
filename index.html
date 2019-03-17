@@ -10,13 +10,13 @@
 </head>
 <body>
     <br/>
-    <div class="container ">
+    <div class="my-style">
 
-        <div class="card justify-content-center" style="width: 40rem;">
+        <div class="card " style="width: 40rem;">
 
-            <div class="card-body">
+            <div class="card-body ">
 
-                <h1 class="card-title custom-title" >Simple Tip Calculator</h1>
+                <h1 class="card-title custom-title custom-color" >Simple Tip Calculator</h1>
 
                 
 
@@ -42,7 +42,15 @@
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Enter the number of people..." id="people" />
                     </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-danger" id="calculate">Calculate</button>
+                    </div>
                 </form>
+
+                <h2 class="card-text error" id="error">Please enter all the fields....</h2>
+
+                <h2 class="card-text final" id="result"></h2>
 
                 
                 
@@ -54,6 +62,8 @@
         </div>
         
     </div>
+
+    <script src="main.js"></script>
     
     
 </body>
